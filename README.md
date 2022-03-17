@@ -6,8 +6,8 @@ Implementation of the CVPR 2022 paper. We analyze the use of implicit gradients 
 
 ### Sinkhorn module
 
-* If you want to use our PyTorch Sinkhorn module (with implicit gradients) in your own project, simply include the file `sinkhorn/sinkhorn.py`.
-* The module has minimal requirements, it only depends on PyTorch (tested for version 1.6.0).
+* If you want to use our PyTorch Sinkhorn module (with implicit gradients) in your own project, simply include the file `sinkhorn/sinkhorn.py`. The module is compatible with learning tasks for both learnable cost matrices and marginals.
+* The module has minimal requirements, it only depends on PyTorch (tested for version 1.6.0 and 1.11.0).
 ```bash
 pip3 install torch
 ```
