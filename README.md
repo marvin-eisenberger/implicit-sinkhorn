@@ -34,7 +34,7 @@ python3 main_image_barycenter.py 1 4
 * The numbers '1' and '4' refer to the images `star.png` and `circle_corner.png` under `image_barycenter/data/`, respectively.
 * Further possible ids are '0': `circle.png`, '2': `arrow.png`, '3': `torus.png`, '5': `two_circles.png`
 * The script `main_image_barycenter.py` can also accept 3 or more image ids.
-* The outputs will be saved automatically under `results/` in a new folder, associated with the timestamp of the script's execution. Every 1000 iterations, it saved a thumbnail of the output images, loss curves and some metadata (and raw image data) in `.mat` files.
+* The outputs will be saved automatically under `results/` in a new folder, associated with the timestamp of the script's execution. Every 1000 iterations, it saves a thumbnail of the output images, loss curves and some metadata (and raw image data) in `.mat` files.
 * The 'Automatic Differentiation' baseline can be executed by passing a corresponding option:
 ```bash
 python3 main_image_barycenter.py 1 4 --backward_type ad
