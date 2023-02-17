@@ -1,6 +1,6 @@
 <h1> A Unified Framework for Implicit Sinkhorn Differentiation </h1>
 
-Implementation of the CVPR 2022 paper. We analyze the use of implicit gradients for generic Sinkhorn layers within a neural network. In the paper, we provide extensive theoretical and empirical analysis. Here, we provide the PyTorch source code for many of the experiments from the paper.
+Implementation of the CVPR 2022 paper ([[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Eisenberger_A_Unified_Framework_for_Implicit_Sinkhorn_Differentiation_CVPR_2022_paper.pdf)],[[arXiv](https://arxiv.org/abs/2205.06688)]). We analyze the use of implicit gradients for generic Sinkhorn layers within a neural network. In the paper, we provide extensive theoretical and empirical analysis. Here, we provide the PyTorch source code for many of the experiments from the paper.
 
 ## Usage
 
